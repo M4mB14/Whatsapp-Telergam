@@ -1,0 +1,24 @@
+{
+    "name": "greenapi-telegram-integration",
+    "version": "1.0.0",
+    "description": "Integration between Green API (WhatsApp) and Telegram",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build",
+        "dev": "ts-node src/main.ts",
+        "start": "node dist/main.js"
+    },
+    "dependencies": {
+        "@green-api/greenapi-integration": "^0.4.0",
+        "express": "^4.18.2",
+        "axios": "^1.9.0",
+        "dotenv": "^16.0.3"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.7.2"
+    }
+}
