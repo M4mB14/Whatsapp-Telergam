@@ -25,7 +25,7 @@
 5) Запустить скрипт командой npm run dev
 
 Cтруктура проекта 
-      ```text
+      ```ts
       ├── src/
       │   ├── core/
       │   │   ├── adapter.ts
@@ -38,4 +38,5 @@ Cтруктура проекта
       ├──.env
       ├── tsconfig.json
       ├── package.json
+      ```
       
