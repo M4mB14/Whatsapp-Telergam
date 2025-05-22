@@ -25,20 +25,7 @@
 5) Запустить скрипт командой npm run dev
 
 Cтруктура проекта:
-      src/
-        core/
-              adapter.ts
-              router.ts
-              storage.ts
-              transformer.ts
-        main.ts
-        types/
-              types.ts
-      .env
-      tsconfig.json
-      package.json
 
-      
       ├── src/
       │   ├── core/
       │   │   ├── adapter.ts
