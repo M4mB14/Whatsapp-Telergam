@@ -1,6 +1,7 @@
 # Whatsapp-Telergam Integration
 Репозиторий для интеграции Telegram-Whatsapp 
 
+Для корректной работы нужна весрия nodejs 14 или выше
 Для корректной работы скрипта нужно иметь внешний адрес webhook-а а так же возможность этого webhook-а реагировать на новые запросы 
 
 1) Скопируйте репозиторий коммандой git clone
@@ -22,3 +23,20 @@
       PORT=
       ```
 5) Запустить скрипт командой npm run dev
+
+Cтруктура проекта 
+      ```
+      ├── src
+      │   ├── core
+      │   │   ├── adapter.ts
+      │   │   ├── router.ts
+      │   │   ├── storage.ts
+      │   │   └── transformer.ts
+      │   ├── main.ts
+      │   └── types
+      │       └── types.ts
+      ├──.env
+      ├──tsconfig.json
+      ├── package.json
+      └── package-lock.json
+      ```
